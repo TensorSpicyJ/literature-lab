@@ -1,0 +1,14 @@
+[
+  {"date": "2026-04-29", "topic": "拓扑序", "query": "topological order fractional quantum Hall anyon 2026 site:arxiv.org", "results_count": 10, "new_papers": [
+    {"title": "Fractionalized anyons in counterflowing Quantum Hall Liquids", "arxiv_id": "2603.16222", "status": "arXiv", "year": 2026},
+    {"title": "Anyon superfluidity of excitons in quantum Hall bilayers", "arxiv_id": "2508.14894", "status": "arXiv", "year": 2026},
+    {"title": "Non-Abelian topological superconductivity from melting Abelian fractional Chern insulators", "arxiv_id": "2512.17996", "status": "arXiv", "year": 2026}
+  ]},
+  {"date": "2026-04-30", "topic": "全流程(thesis+core)", "query": "multi-topic", "results_count": 18, "new_papers": []},
+  {"date": "2026-05-01", "topic": "全流程(thesis+core)", "query": "multi-topic", "results_count": 8, "new_papers": []},
+  {"date": "2026-05-02", "topic": "拓扑序(周末)", "query": "multi-topic via topology-topics.json", "results_count": 25, "new_papers": [
+    {"title": "Probing bilayer topological order with layer-resolved transport", "arxiv_id": "2604.19955", "status": "arXiv", "year": 2026},
+    {"title": "Unveiling Topological Fusion in QH Systems from Microscopic Principles", "arxiv_id": "2604.16525", "status": "arXiv", "year": 2026},
+    {"title": "Classification and correlation signatures of chiral spin liquids on pyrochlore", "arxiv_id": "2604.11880", "status": "arXiv", "year": 2026}
+  ]}
+]

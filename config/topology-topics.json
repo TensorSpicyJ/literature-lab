@@ -1,0 +1,29 @@
+{
+  "active": [
+    {
+      "name": "拓扑序",
+      "query": "topological order fractional quantum Hall anyon",
+      "priority": "interest"
+    },
+    {
+      "name": "非阿贝尔任意子",
+      "query": "non-abelian anyon Majorana zero mode topological quantum computation",
+      "priority": "interest"
+    },
+    {
+      "name": "量子自旋液体",
+      "query": "quantum spin liquid parton construction projective symmetry group",
+      "priority": "interest"
+    },
+    {
+      "name": "SPT/范畴论",
+      "query": "symmetry protected topological phase tensor category fusion category",
+      "priority": "interest"
+    },
+    {
+      "name": "分数量子霍尔",
+      "query": "fractional quantum Hall Laughlin Moore-Read composite fermion",
+      "priority": "interest"
+    }
+  ]
+}

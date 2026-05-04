@@ -1,0 +1,29 @@
+{
+  "active": [
+    {
+      "name": "LSCO单层",
+      "query": "LSCO ultrathin film superconductivity",
+      "priority": "thesis"
+    },
+    {
+      "name": "超导二极管/隧道结",
+      "query": "superconducting diode effect Josephson junction",
+      "priority": "thesis"
+    },
+    {
+      "name": "超导磁性材料",
+      "query": "superconducting magnetic materials manganite cuprate interface",
+      "priority": "thesis"
+    },
+    {
+      "name": "铜基超导",
+      "query": "cuprate superconductor strange metal pseudogap",
+      "priority": "core"
+    },
+    {
+      "name": "拓扑序",
+      "query": "topological order fractional quantum Hall anyon",
+      "priority": "interest"
+    }
+  ]
+}
