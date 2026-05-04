@@ -10,5 +10,12 @@
     {"title": "Probing bilayer topological order with layer-resolved transport", "arxiv_id": "2604.19955", "status": "arXiv", "year": 2026},
     {"title": "Unveiling Topological Fusion in QH Systems from Microscopic Principles", "arxiv_id": "2604.16525", "status": "arXiv", "year": 2026},
     {"title": "Classification and correlation signatures of chiral spin liquids on pyrochlore", "arxiv_id": "2604.11880", "status": "arXiv", "year": 2026}
+  ]},
+  {"date": "2026-05-05", "topic": "全流程(thesis+core)", "query": "multi-topic: LSCO ultrathin + SDE Josephson + magnetic manganite interface + cuprate strange metal pseudogap", "results_count": 24, "new_papers": [
+    {"title": "Signatures of time-reversal-symmetry breaking in multiband 2H-TaS2 revealed by zero-field Josephson nonreciprocity", "arxiv_id": "2605.00477", "status": "arXiv", "year": 2026},
+    {"title": "High efficiency superconducting diode effect in a gate-tunable double-loop SQUID", "arxiv_id": "2512.14909", "status": "arXiv", "year": 2026},
+    {"title": "Composite antiferromagnetic and orbital order with altermagnetic properties at a cuprate/manganite interface", "arxiv_id": "2404.19410", "status": "published", "year": 2024},
+    {"title": "Hidden Universal Metal in Cuprate Superconductors", "arxiv_id": "2604.10133", "status": "arXiv", "year": 2026},
+    {"title": "Ultrafast decoupling of the pseudogap from superconductivity in a pressurized cuprate", "arxiv_id": "2604.10207", "status": "arXiv", "year": 2026}
   ]}
 ]

@@ -1,0 +1,30 @@
+>>> Tue May  5 03:25:49 AM CST 2026: 开始 literature-lab 每日管线 <<<
+From github.com:TensorSpicyJ/literature-lab
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+Pipeline complete. Here's what was produced:
+
+**Search**: 24 candidates across 4 topics (LSCO, SDE/JJ, magnetic materials, cuprates)
+
+**Filter → Shortlist of 5**:
+| # | Paper | Topic | Status |
+|---|-------|-------|--------|
+| 1 | 2605.00477 — Zero-field SDE in TaS2/NbSe2 (TRSB s+is') | diode (thesis) | arXiv |
+| 2 | 2512.14909 — Gate-tunable SQUID η>50% | diode (thesis) | arXiv |
+| 3 | 2404.19410 — Altermagnetic cuprate/manganite interface | magnetic (thesis) | **published** (PNAS Nexus) |
+| 4 | 2604.10133 — Hidden universal metal in cuprates (NMR) | cuprate (core) | arXiv |
+| 5 | 2604.10207 — Pseudogap decoupling under pressure | cuprate (core) | arXiv |
+
+**Analysis**: All 5 deep-read from TeX source or PDF. 3 had full TeX; 2 experimental papers used PDF fallback.
+
+**Outputs written to `/home/claude/literature-lab/outputs/`**:
+- `daily/2026-05/paper-radar-2026-05-05.md`
+- `papers/` — 5 paper notes with full YAML frontmatter
+- `indexes/topic-index.md` — updated topic index
+- `for-thesis/2026-05-05-thesis-extract-altermagnetic-interface.md` — only 2404.19410 qualified (published + thesis)
+
+**State updated**: `state/search-log.json` (5 new papers logged), `state/pipeline-status.json` (2026-05-05, completed)
+
+**Skipped**: LSCO single-layer (no qualifying recent papers), Feishu push (Linux no-go)
+
+PIPELINE_DONE

@@ -1,5 +1,17 @@
 {
-  "last_run_date": "2026-05-02",
+  "last_run_date": "2026-05-05",
   "status": "completed",
-  "errors": ["arXiv API rate-limited; TEX-first deep read deferred for 2604.19955 and 2604.16525"]
+  "mode": "thesis+core",
+  "topics_covered": ["LSCO单层", "超导二极管/隧道结", "超导磁性材料", "铜基超导"],
+  "shortlist_count": 5,
+  "papers_analyzed": [
+    "2605.00477",
+    "2512.14909",
+    "2404.19410",
+    "2604.10133",
+    "2604.10207"
+  ],
+  "for_thesis_extracted": ["2404.19410"],
+  "output_path": "/home/claude/literature-lab/outputs/",
+  "errors": ["LSCO single-layer search returned no recent qualifying papers; arXiv API e-print returned PDF (not TeX) for 2604.10207 and 2404.19410; Feishu push skipped (Linux environment)"]
 }
