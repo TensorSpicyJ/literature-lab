@@ -1,0 +1,26 @@
+{
+  "last_run_date": "2026-05-05",
+  "last_run_time": "2026-05-05T16:00:00+08:00",
+  "status": "completed",
+  "mode": "interest",
+  "topics_covered": ["拓扑序", "非阿贝尔任意子", "量子自旋液体", "SPT/范畴论", "分数量子霍尔"],
+  "candidates_found": 28,
+  "papers_analyzed": [
+    "2505.14767",
+    "2601.08792"
+  ],
+  "concepts_created": [
+    "vison",
+    "minimal-topological-order",
+    "so-n1-fqh-paired"
+  ],
+  "concepts_updated": [],
+  "relations_created": [
+    "vison-mto"
+  ],
+  "output_path": "/home/claude/literature-lab/outputs/topology/",
+  "errors": [
+    "arXiv metadata API rate-limited — recovered via WebSearch",
+    "2505.14767 TeX source ~3MB, first download attempt corrupted — succeeded on retry"
+  ]
+}

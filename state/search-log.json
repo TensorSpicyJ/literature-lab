@@ -18,6 +18,13 @@
     {"title": "Hidden Universal Metal in Cuprate Superconductors", "arxiv_id": "2604.10133", "status": "arXiv", "year": 2026},
     {"title": "Ultrafast decoupling of the pseudogap from superconductivity in a pressurized cuprate", "arxiv_id": "2604.10207", "status": "arXiv", "year": 2026}
   ]},
+  {"date": "2026-05-05", "topic": "拓扑序兴趣线(interest)", "query": "multi-topic via topology-topics.json: all 5 active topics", "results_count": 28, "new_papers": [
+    {"title": "Ordering the topological order in the fractional quantum Hall effect", "arxiv_id": "2505.14767", "status": "arXiv", "year": 2026},
+    {"title": "Universal Transport Theory for Paired Fractional Quantum Hall States in the Quantum Point Contact Geometry", "arxiv_id": "2601.08792", "status": "arXiv", "year": 2026},
+    {"title": "Experimental Evidence of Fractional Entropy in Critical Kondo Systems", "arxiv_id": "2605.00669", "status": "arXiv", "year": 2026},
+    {"title": "Hybrid Monte Carlo for Fractional Quantum Hall States", "arxiv_id": "2602.17564", "status": "arXiv", "year": 2026},
+    {"title": "Testing the robustness of topological quantities from the modular Hamiltonian", "arxiv_id": "2604.24058", "status": "arXiv", "year": 2026}
+  ]},
   {"date": "2026-05-05", "topic": "全流程(thesis+core)-round2", "query": "multi-topic: SDE Josephson (10 papers) + magnetic manganite (7, none 2026) + cuprate strange metal pseudogap (10 papers)", "results_count": 25, "new_papers": [
     {"title": "Strong Correlation Drives Zero-Field Josephson Diode Effect", "arxiv_id": "2604.14045", "status": "arXiv", "year": 2026},
     {"title": "Anisotropic Superconducting Diode Effect in Planar Josephson Junctions", "arxiv_id": "2604.17594", "status": "arXiv", "year": 2026},
