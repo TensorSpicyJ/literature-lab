@@ -1,17 +1,39 @@
 {
   "last_run_date": "2026-05-05",
+  "last_run_time": "2026-05-05T15:00:00+08:00",
   "status": "completed",
   "mode": "thesis+core",
+  "run_round": 2,
   "topics_covered": ["LSCO单层", "超导二极管/隧道结", "超导磁性材料", "铜基超导"],
   "shortlist_count": 5,
   "papers_analyzed": [
-    "2605.00477",
-    "2512.14909",
-    "2404.19410",
-    "2604.10133",
-    "2604.10207"
+    "2604.14045",
+    "2604.17594",
+    "2601.14384",
+    "2604.19215",
+    "2507.06309"
   ],
-  "for_thesis_extracted": ["2404.19410"],
+  "papers_with_full_notes": [
+    "2604.14045",
+    "2604.17594",
+    "2604.19215",
+    "2507.06309"
+  ],
+  "papers_radar_only": [
+    "2601.14384"
+  ],
+  "for_thesis_extracted": [],
   "output_path": "/home/claude/literature-lab/outputs/",
-  "errors": ["LSCO single-layer search returned no recent qualifying papers; arXiv API e-print returned PDF (not TeX) for 2604.10207 and 2404.19410; Feishu push skipped (Linux environment)"]
+  "errors": [
+    "LSCO single-layer search returned no recent qualifying papers",
+    "2601.14384 TeX source fetch timed out (experimental paper — radar only, needs PDF)",
+    "arXiv API rate limited on metadata fetch — recovered via direct e-print downloads",
+    "Feishu push skipped (Linux environment)"
+  ],
+  "cross_run_correlations": [
+    "2604.14045 ↔ 2605.00477: complementary zero-field SDE mechanisms",
+    "2604.17594 ↔ 2512.14909: symmetry framework ↔ device implementation",
+    "2604.19215 ↔ 2604.10133: NMR shift ↔ relaxation, same group",
+    "2507.06309 ↔ 2604.10133 + 2604.10207: stripe model ↔ NMR + pressure experiments"
+  ]
 }

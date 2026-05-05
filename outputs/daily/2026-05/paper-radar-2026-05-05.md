@@ -1,99 +1,95 @@
-# Paper Radar — 2026-05-05
+# 📡 每日文献雷达 — 2026-05-05 (下午轮)
 
-> 全流程 thesis + core 线
-> 产出路径: /home/claude/literature-lab/outputs/
-
----
-
-## 一、本次覆盖主题
-
-| 主题 | 优先级 | 搜索命中 | 进入短名单 |
-|------|--------|----------|-----------|
-| LSCO单层 | thesis | 6 | 0 (无符合条件的近期论文) |
-| 超导二极管/隧道结 | thesis | 10 | 2 |
-| 超导磁性材料 | thesis | 5 | 1 |
-| 铜基超导 | core | 8 | 2 |
+> 全流程 thesis + core 线，第二轮运行。
+> 覆盖：LSCO单层 / 超导二极管 / 超导磁性材料 / 铜基超导
+> 上午轮已覆盖 5 篇 (2605.00477, 2512.14909, 2404.19410, 2604.10133, 2604.10207)，本轮发现 5 篇新文献。
 
 ---
 
-## 二、短名单 (5篇)
+## 一、本轮高信号
 
-### 1. 超导二极管/隧道结
+### 1. 强关联驱动零场 Josephson 二极管效应 ⭐⭐⭐
+- arXiv:2604.14045 | Sun, Zhang, He (USTC Hefei)
+- 2026-04-15 | cond-mat.supr-con
+- **核心发现：** Hubbard U 强关联 + 奇数电子数 → 自发 TRSB → φ-junction → **零场 JDE**，无需磁序或显式对称破缺。SOC 仅破 SU(2) 不决定极性。微小 Zeeman 场可实现可控高效率 JDE（增强来自磁性关联）。
+- **与 TS 课题：** 二极管线新机制。与 2605.00477（multiband TRSB）互补——强关联 vs 多带效应作为零场 SDE 的两个独立起源。可检预测：φ-junction 态随机极性翻转。
+- **来源：** TeX 全文
+- **状态：** arXiv
 
-**A. Signatures of time-reversal-symmetry breaking in multiband 2H-TaS2 revealed by zero-field Josephson nonreciprocity**
-- arXiv:2605.00477 (2026-05-01)
-- Margineda, Caldevilla-Asenjo, Yerin, Gobbi et al. (CIC nanoGUNE / CFM-MPC CSIC-EHU)
-- η ≈ 3%, 零场 SDE — 首次在非中心对称 TMD vdW 结中系统排除了界面、应变、透明度驱动机制，提出 interband scattering 驱动的 s+is' TRSB 多带超导态模型
-- 实验+理论，TeX 已读
-- 来源状态: arXiv (未正式发表)
-- 与 TS 课题关系: 二极管效应新机制，直接关联 Chap_Diode
+### 2. 平面 JJ 各向异性超导二极管效应 ⭐⭐⭐
+- arXiv:2604.17594 | Chilampankunnel Prasannan, Pekerten, Alashkar, Matos-Abiague
+- 2026-04-19 | cond-mat.supr-con
+- **核心发现：** Rashba + Dresselhaus SOC planar JJ 的 SDE 磁/晶各向异性全分析。对称性条件（Table I）预测 SDE 抑制方向，可实验检验。栅压在纯 Rashba 下也可实现低场极性反转。窄结解析模型将 SDE 各向异性追溯至 Fermi 面畸变和各向异性 Cooper 对动量。
+- **与 TS 课题：** 二极管线对称性框架。Table I 的抑制条件可用于诊断 SOC 在 SDE 中的作用。与 2512.14909 互补——前者框架，后者器件。
+- **来源：** TeX 全文
+- **状态：** arXiv
 
-**B. High efficiency superconducting diode effect in a gate-tunable double-loop SQUID**
-- arXiv:2512.14909 (2025-12-16, v1 2026-01-06)
-- Gibbons, Zhang, Manfra et al. (Purdue / Microsoft Quantum)
-- η = −54% 到 +47%，SQUID 基 SDE 的效率纪录。双环 SQUID + 每支路两个门极可调 JJ，独立控制谐波分量与振幅
-- 实验，TeX 已读
-- 来源状态: arXiv (未正式发表)
-- 与 TS 课题关系: 高效率 SDE 实现方案，可引为二极管章节的实验标杆
+### 3. 涡旋宇称控制的 Corbino 拓扑 Josephson 结二极管 ⭐⭐
+- arXiv:2601.14384 | Park et al. (Harvard / Weizmann / Princeton / NIMS)
+- 2026-01-20 | cond-mat.supr-con
+- **核心发现：** 3DTI Corbino 结上偶-奇 JDE——二极管极性随 enclosed 涡旋数宇称交替。石墨烯 Corbino 和 3DTI 线结均无此效应 → 拓扑超导 Andreev 束缚态拓扑的直接体现，与非 Abel 任意子相关。
+- **与 TS 课题：** 二极管 + 拓扑交叉方向。
+- **来源：** TeX 未获取（超时），arXiv 摘要 + WebSearch
+- **状态：** arXiv | ⚠️ 待获取全文（实验论文，需 PDF 方可建 note）
 
-### 2. 超导磁性材料
+### 4. 铜基超导体赝能隙与凝聚——NMR 位移 ⭐⭐⭐
+- arXiv:2604.19215 | Lee, Haase (Univ. Leipzig)
+- 2026-04-21 | cond-mat.supr-con
+- **核心发现：** 系统分析 ~40 种铜基 NMR 数据。Cu 位移解耦为 A 自旋（3d 各向异性）和 B 自旋（4s 各向同性）。B-spin DOS 随掺杂降低而下降，x≈0.20 为变化率转折点。赝能隙 = Tc 处位移展宽（非弛豫展宽）。凝聚三斜率对应可能的配对对称性混合。最优 Tc 需 A/B 匹配。
+- **与 TS 课题：** 铜基线。与 2604.10133（同一组，Cu 弛豫分析）互补构成完整 NMR 现象学。B-spin DOS 变化与 2604.10207 的 ΔPG 压力演化可对话。
+- **来源：** TeX 全文
+- **状态：** arXiv
 
-**C. Composite antiferromagnetic and orbital order with altermagnetic properties at a cuprate/manganite interface**
-- arXiv:2404.19410, PNAS Nexus 3(4), pgae100 (2024)
-- Sarkar, Capu, Bernhard et al.
-- RIXS 发现 cuprate/manganite 界面 CuO2 层的 J 从 ~130 meV 被压制到 ~70 meV，伴随轨道序形成的 altermagnetic 态
-- 实验 (RIXS)，已发表在 PNAS Nexus
-- 来源状态: published
-- 与 TS 课题关系: 唯一满足 thesis-extract 条件的论文，直接关联 Chap_Magnetic
-
-### 3. 铜基超导 (core)
-
-**D. Hidden Universal Metal in Cuprate Superconductors**
-- arXiv:2604.10133 (2026-04-11)
-- Lee, Haase (Univ. Leipzig)
-- NMR 弛豫数据分析揭示所有铜基超导体共享同一 universal metal: 1/T1⊥ Tc ≈ 25/Ks。Tc 以上为 strange metal 区，弛豫 anisotropy 与 Tc_max 直接相关
-- 理论/数据分析，TeX 已读
-- 来源状态: arXiv (未正式发表)
-
-**E. Ultrafast decoupling of the pseudogap from superconductivity in a pressurized cuprate**
-- arXiv:2604.10207 (2026-04-11)
-- Meng, Mao, Zhou, Wang et al.
-- 超快光谱 + 高压 (≤37 GPa): pseudogap 的 T* 随压力单调上升但 ΔPG 被压制，Tc 和 ΔSC 走 dome 形 —— 赝能隙与超导独立演化
-- 实验，PDF 已读
-- 来源状态: arXiv (未正式发表)
+### 5. 自旋条纹无序 → 奇异金属 + 费米弧 ⭐⭐⭐
+- arXiv:2507.06309v4 | Zhang, Bultinck (Ghent Univ.)
+- 2026-04-22 | cond-mat.str-el
+- **核心发现：** 电势无序 + 自旋条纹 → SDW 玻璃态 → 涌现 Ising 自由度 → QCP 由 Patel et al. (Science 2023) 奇异金属普适理论描述。Monte Carlo 显示 AFM 关联长度仅 4-5 晶格常数即可产生清晰的费米弧。
+- **与 TS 课题：** 统一奇异金属线性-T 电阻 + 费米弧——铜基两大核心问题。Ising 自由度赝能隙微观图像。
+- **来源：** TeX 全文
+- **状态：** arXiv
 
 ---
 
-## 三、LSCO 单层方向备注
+## 二、全日本日汇总
 
-本次搜索未发现符合 quality threshold 的近期 LSCO 论文。最近相关论文为:
-- "Ultrathin Limit on the Anisotropic Superconductivity of Single-Layered Cuprate Films" — Feng et al., Chin. Phys. Lett. 41, 027401 (2024): LSCO 膜在 2 个单胞 (~2.6 nm) 厚度下仍超导
-- "Emergent Coherence at the Edge of Magnetism: Low-Doped La2-xSrxCuO4+delta Revisited" — arXiv:2602.04452 (2026-02): 低掺杂 LSCO 的逾渗超导
-
----
-
-## 四、来源雷达概览
-
-| Paper | 来源 | 质量 | 建note |
-|-------|------|------|--------|
-| 2605.00477 TaS2 SDE | TeX 全文 | 高 — 实验+理论自洽 | ✓ |
-| 2512.14909 SQUID diode | TeX 全文 | 高 — 实验标杆 | ✓ |
-| 2404.19410 Altermagnetic IF | PDF + published | 高 — 已发表 PNAS Nexus | ✓ |
-| 2604.10133 Universal Metal | TeX 全文 | 高 — 系统性 NMR 分析 | ✓ |
-| 2604.10207 Pressurized PG | PDF + 摘要 | 中 — PDF only | ✓ |
+| 主题 | 上午轮 | 下午轮（本轮） | 合计新文献 |
+|------|--------|---------------|----------|
+| 超导二极管 (thesis) | 2605.00477, 2512.14909 | 2604.14045, 2604.17594, 2601.14384 | 5 |
+| 超导磁性 (thesis) | 2404.19410 | — | 1 |
+| 铜基超导 (core) | 2604.10133, 2604.10207 | 2604.19215, 2507.06309 | 4 |
+| LSCO单层 (thesis) | — | — | 0 |
 
 ---
 
-## 五、本次未覆盖
+## 三、论文笔记
 
-- 拓扑序 (interest): 本次仅跑 thesis+core 线，未覆盖
-- LSCO 超薄膜: 近期无符合阈值的新论文
-- 飞书推送: Linux 环境无此能力，跳过
+上午轮已建 5 篇 note。本轮新建 4 篇：
+- [[papers/2604.14045-correlation-zero-field-jde]]
+- [[papers/2604.17594-anisotropic-sde-planar-jj]]
+- [[papers/2604.19215-nmr-pseudogap-cuprates]]
+- [[papers/2507.06309-strange-metal-spin-stripes]]
+
+仅雷达：2601.14384（实验论文，TeX 未获取，待 PDF）
 
 ---
 
-## 六、后续行动
+## 四、跨轮关联
 
-- 2404.19410 已写入 for-thesis/（唯一满足 published + thesis 条件的论文）
-- 所有 5 篇已建 paper notes
-- 建议下次跑拓扑序 interest 线 (search → analyze → deposit)
+- **2604.14045 ↔ 2605.00477**：零场 SDE 的两个独立机制——强关联 φ-junction vs multiband TRSB s+is'
+- **2604.17594 ↔ 2512.14909**：SDE 对称性框架 ↔ 高效器件实现
+- **2604.19215 ↔ 2604.10133**：同组互补——NMR 位移 vs 弛豫
+- **2507.06309 ↔ 2604.10133 + 2604.10207**：奇异金属微观模型 ↔ NMR 两分量图像 + 赝能隙压力演化
+
+---
+
+## 五、for-thesis
+
+本轮无新增（全 arXiv 预印本）。上午轮已提取 2404.19410（published, PNAS Nexus）。
+
+---
+
+## 六、趋势
+1. 零场 JDE 机制进入多机制竞争阶段——强关联 / multiband / 手性反铁磁，今年已 3 个独立提案
+2. NMR 现象学系统化——Lee & Haase 组两篇互补论文可能成为铜基新基准
+3. 奇异金属理论趋同——场论 + 数值计算逼近同一图像
+4. LSCO 超薄方向持续贫瘠——建议拓展搜索策略

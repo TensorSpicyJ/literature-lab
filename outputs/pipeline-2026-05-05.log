@@ -28,3 +28,25 @@ Pipeline complete. Here's what was produced:
 **Skipped**: LSCO single-layer (no qualifying recent papers), Feishu push (Linux no-go)
 
 PIPELINE_DONE
+>>> Tue May  5 03:49:28 AM CST 2026: 已推送到 GitHub <<<
+>>> Tue May  5 03:49:28 AM CST 2026: 完成 <<<
+>>> Tue May  5 09:00:10 CST 2026: 开始 literature-lab 每日管线 <<<
+From github.com:TensorSpicyJ/literature-lab
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+Pipeline complete. All outputs written:
+
+| Output | Count |
+|--------|-------|
+| Daily radar | 1 (merged, 10 papers total across both rounds) |
+| New paper notes | 4 (2604.14045, 2604.17594, 2604.19215, 2507.06309) |
+| Topic index | Updated (4 new entries, now 9 total) |
+| For-thesis | 0 new (all arXiv-only; 2404.19410 from round 1 already extracted) |
+| State files | search-log.json + pipeline-status.json both updated |
+
+**Search → Filter:** 25 candidates across 4 topics → shortlist of 5  
+**Analyze:** 4 TeX deep reads + 1 radar-only (2601.14384 — TeX arrived late, experimental paper)  
+**Correlate:** 4 cross-run correlations identified (complementary zero-field SDE mechanisms, NMR shift↔relaxation, stripe↔experiments)  
+**Skipped:** LSCO单层 (no qualifying papers), Magnetic (none new), 飞书推送 (Linux)
+
+PIPELINE_DONE

@@ -17,5 +17,12 @@
     {"title": "Composite antiferromagnetic and orbital order with altermagnetic properties at a cuprate/manganite interface", "arxiv_id": "2404.19410", "status": "published", "year": 2024},
     {"title": "Hidden Universal Metal in Cuprate Superconductors", "arxiv_id": "2604.10133", "status": "arXiv", "year": 2026},
     {"title": "Ultrafast decoupling of the pseudogap from superconductivity in a pressurized cuprate", "arxiv_id": "2604.10207", "status": "arXiv", "year": 2026}
+  ]},
+  {"date": "2026-05-05", "topic": "全流程(thesis+core)-round2", "query": "multi-topic: SDE Josephson (10 papers) + magnetic manganite (7, none 2026) + cuprate strange metal pseudogap (10 papers)", "results_count": 25, "new_papers": [
+    {"title": "Strong Correlation Drives Zero-Field Josephson Diode Effect", "arxiv_id": "2604.14045", "status": "arXiv", "year": 2026},
+    {"title": "Anisotropic Superconducting Diode Effect in Planar Josephson Junctions", "arxiv_id": "2604.17594", "status": "arXiv", "year": 2026},
+    {"title": "Vortex-parity-controlled diode effect in Corbino topological Josephson junctions", "arxiv_id": "2601.14384", "status": "arXiv", "year": 2026},
+    {"title": "Pseudogap and Condensation in Cuprate Superconductors from NMR Shifts", "arxiv_id": "2604.19215", "status": "arXiv", "year": 2026},
+    {"title": "Strange metal and Fermi arcs from disordering spin stripes", "arxiv_id": "2507.06309", "status": "arXiv", "year": 2026}
   ]}
 ]

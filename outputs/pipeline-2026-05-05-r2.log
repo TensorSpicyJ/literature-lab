@@ -1,0 +1,34 @@
+>>> Tue May  5 15:30:00 CST 2026: 开始 literature-lab 每日管线 (第二轮) <<<
+
+**Search**: 25 candidates across 4 topics (LSCO, SDE/JJ, magnetic materials, cuprates)
+  - LSCO单层: 0 qualifying
+  - 超导二极管: 10 new (2 already logged), 8 new candidates
+  - 超导磁性材料: 7 papers (none 2026, 2404.19410 already logged)
+  - 铜基超导: 10 new (2 already logged), 8 new candidates
+
+**Filter → Shortlist of 5**:
+| # | Paper | Topic | Status |
+|---|-------|-------|--------|
+| 1 | 2604.14045 — Strong correlation zero-field JDE (Hubbard φ-junction) | diode (thesis) | arXiv |
+| 2 | 2604.17594 — Anisotropic SDE in planar JJs (R+D SOC) | diode (thesis) | arXiv |
+| 3 | 2601.14384 — Vortex-parity diode in Corbino TJJs (non-Abelian) | diode (thesis) | arXiv |
+| 4 | 2604.19215 — NMR pseudogap & condensation in cuprates (~40 materials) | cuprate (core) | arXiv |
+| 5 | 2507.06309 — Strange metal & Fermi arcs from spin stripes | cuprate (core) | arXiv |
+
+**Analysis**: 5 deep-read. 4 had full TeX sources → full paper notes. 1 (2601.14384) TeX fetch timed out → radar only.
+
+**Outputs written to /home/claude/literature-lab/outputs/**:
+- daily/2026-05/paper-radar-2026-05-05.md — comprehensive radar (merged w/ round 1)
+- papers/ — 4 new paper notes (2604.14045, 2604.17594, 2604.19215, 2507.06309)
+- indexes/topic-index.md — updated with 4 new entries
+- for-thesis/ — none new this round (all arXiv only; 2404.19410 from round 1 already extracted)
+
+**State updated**: search-log.json (5 new papers logged), pipeline-status.json (round 2 completed)
+
+**Cross-run correlations identified**:
+- 2604.14045 ↔ 2605.00477: complementary zero-field SDE mechanisms (correlation vs multiband)
+- 2604.17594 ↔ 2512.14909: symmetry framework ↔ device implementation
+- 2604.19215 ↔ 2604.10133: NMR shift ↔ relaxation, same group
+- 2507.06309 ↔ 2604.10133 + 2604.10207: stripe model ↔ NMR + pressure experiments
+
+**Skipped**: LSCO single-layer (no qualifying papers), Feishu push (Linux)
