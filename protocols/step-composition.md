@@ -9,7 +9,7 @@ The pipeline has five independent steps. Combine them as needed.
 | `search` | WebSearch across specified topics | topics.json + search-log.json | candidate list |
 | `filter` | Score by source policy, pick shortlist | candidate list | shortlist (≤5 main, rest in background) |
 | `analyze` | TEX-first deep read, structured extraction | shortlist | structured paper notes |
-| `correlate` | Cross-reference with existing library | notes + topic-index + papers/ | correlation annotations |
+| `correlate` | Cross-reference + mechanism extraction | notes + topic-index + papers/ | correlation annotations, mechanism cards |
 | `deposit` | Write output to BaiduSyncdisk | notes + correlations | daily radar, paper notes, index updates, for-thesis |
 
 ## Common Modes

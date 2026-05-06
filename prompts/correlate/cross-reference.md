@@ -21,3 +21,12 @@ Add this section to each paper note:
 ```
 
 If a new topic axis emerged, flag it for index addition.
+
+## Mechanism Extraction
+
+After correlation annotations, extract physical mechanisms per `protocols/mechanism-extraction.md`:
+
+1. Identify distinct mechanisms from `## 核心主张`, `## 对称性约束 / 关键机制`, `## 形式数据` sections
+2. Check existing cards at `D:\BaiduSyncdisk\code\OB_NOTE\MY NOTE\12-每日文献知识库\mechanisms\00-mechanism-index.md`
+3. Create/update cards in `mechanisms/cards/` using the template
+4. Update `mechanisms/00-mechanism-index.md` — class tables, cross-query tables, chapter mapping

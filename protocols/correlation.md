@@ -39,3 +39,12 @@ For each analyzed paper, add a correlation block to the analysis notes:
 - 主题聚类: [topic axis from topic-index]
 - 与已有笔记: [similar to Z / complements W / new angle]
 ```
+
+## Mechanism Extraction
+
+After completing correlation annotations, run mechanism extraction per `mechanism-extraction.md`:
+
+1. Identify distinct physical mechanisms from the newly analyzed paper notes
+2. For each mechanism, check `D:\BaiduSyncdisk\code\OB_NOTE\MY NOTE\12-每日文献知识库\mechanisms\00-mechanism-index.md` for existing cards
+3. Create or update cards in `mechanisms/cards/{mechanism_id}.md`
+4. Update `mechanisms/00-mechanism-index.md` with new entries and cross-query tables

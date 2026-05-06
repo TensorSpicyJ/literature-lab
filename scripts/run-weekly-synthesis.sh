@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "=== Weekly Synthesis $(date) ==="
+/c/Users/taish/AppData/Roaming/npm/claude -p "在 literature-lab 项目里（D:\playground\literature-lab），做本周文献周度综述。步骤：1. 读取 D:\BaiduSyncdisk\code\OB_NOTE\MY NOTE\12-每日文献知识库\daily\ 下近 7 天的所有 paper-radar-*.md 日报。2. 读取 D:\BaiduSyncdisk\code\OB_NOTE\MY NOTE\14-拓扑序学习库\concepts\ 下本周新增概念卡。3. 读取 state/pipeline-status.json 和 state/topology-pipeline-status.json。4. 读取 D:\BaiduSyncdisk\code\OB_NOTE\MY NOTE\12-每日文献知识库\mechanisms\00-mechanism-index.md 查看本周机制更新。综述写到 D:\BaiduSyncdisk\code\OB_NOTE\MY NOTE\12-每日文献知识库\weekly\。结束后更新 state/pipeline-status.json 并跑 feishu-push.ps1 推送周刊到飞书。" --add-dir D:\playground --add-dir "D:\BaiduSyncdisk\code\OB_NOTE\MY NOTE\12-每日文献知识库" --add-dir "D:\BaiduSyncdisk\code\OB_NOTE\MY NOTE\14-拓扑序学习库" --permission-mode bypassPermissions --no-session-persistence
+echo "=== Done $(date) ==="

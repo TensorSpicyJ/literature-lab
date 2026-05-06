@@ -13,6 +13,7 @@
 3. **TEX-first** — 有 arXiv ID 优先拉 TeX 源
 4. **文本产出全落到 BaiduSyncdisk** — `D:\BaiduSyncdisk\code\OB_NOTE\MY NOTE\12-每日文献知识库\`
 5. **protocols/ 是唯一规则源** — 改行为 = 改 protocol，不动脚本
+6. **protocols/engineering-constraints.md** — 工程约束（编码、定时任务、飞书卡片限制），改配置前必读
 
 ## 目录速查
 

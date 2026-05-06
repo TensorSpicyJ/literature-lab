@@ -59,3 +59,5 @@ All output goes to BaiduSyncdisk, not playground:
 | Paper notes | `D:\BaiduSyncdisk\code\OB_NOTE\MY NOTE\12-每日文献知识库\papers\` |
 | Index | `D:\BaiduSyncdisk\code\OB_NOTE\MY NOTE\12-每日文献知识库\indexes\topic-index.md` |
 | For-thesis | `D:\BaiduSyncdisk\code\OB_NOTE\MY NOTE\12-每日文献知识库\for-thesis\` |
+| Mechanism cards | `D:\BaiduSyncdisk\code\OB_NOTE\MY NOTE\12-每日文献知识库\mechanisms\cards\` |
+| Mechanism index | `D:\BaiduSyncdisk\code\OB_NOTE\MY NOTE\12-每日文献知识库\mechanisms\00-mechanism-index.md` |

@@ -1,7 +1,12 @@
 ﻿# literature-lab weekday pipeline
-# Called by Windows Task Scheduler: literature-lab-weekday
-$claude = "C:\Users\TaiS\.local\bin\claude.exe"
+$claude = "C:\Users\taish\AppData\Roaming\npm\claude.cmd"
 $prompt = @'
-在 literature-lab 项目里（D:\playground\literature-lab），按 config/topics.json 跑 thesis 和 core 线全流程：search → filter → analyze → correlate → deposit。跳过 interest 线。产出落到 D:\BaiduSyncdisk\code\OB_NOTE\MY NOTE\12-每日文献知识库\。结束后更新 state/search-log.json 和 state/pipeline-status.json。最后跑 D:\playground\literature-lab\scripts\feishu-push.ps1 推送日报到飞书。
+鍦?literature-lab 椤圭洰閲岋紙D:\playground\literature-lab锛夛紝鎸?config/topics.json 璺?thesis 鍜?core 绾垮叏娴佺▼锛歴earch 鈫?filter 鈫?analyze 鈫?correlate 鈫?deposit銆傝烦杩?interest 绾裤€?
+鍘婚噸瑕佹眰锛?- 鎼滅储鍓嶅厛璇?state/search-log.json 鍜?state/topology-pipeline-status.json锛屾鏌ュ凡鏈夎褰曪紝璺宠繃宸茶浠讳綍绠￠亾鍒嗘瀽杩囩殑璁烘枃
+- 鎼滅储鍚庢洿鏂?state/search-log.json锛堣拷鍔犳湰娆℃悳绱㈢殑 arXiv ID 鍜屾爣棰橈級
+
+浜у嚭瑕佹眰锛?- 浜у嚭钀藉埌 D:\BaiduSyncdisk\code\OB_NOTE\MY NOTE\12-姣忔棩鏂囩尞鐭ヨ瘑搴揬
+- 缁撴潫鍚庢洿鏂?state/search-log.json 鍜?state/pipeline-status.json
+- 鏈€鍚庤窇 D:\playground\literature-lab\scripts\feishu-push.ps1 鎺ㄩ€佹棩鎶ュ埌椋炰功
 '@
-& $claude -p $prompt --add-dir D:\playground --add-dir "D:\BaiduSyncdisk\code\OB_NOTE\MY NOTE\12-每日文献知识库" --permission-mode auto --no-session-persistence
+& $claude -p $prompt --add-dir D:\playground --add-dir "D:\BaiduSyncdisk\code\OB_NOTE\MY NOTE\12-姣忔棩鏂囩尞鐭ヨ瘑搴? --permission-mode bypassPermissions --no-session-persistence
